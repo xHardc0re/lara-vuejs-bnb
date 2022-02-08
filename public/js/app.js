@@ -5274,7 +5274,8 @@ __webpack_require__.r(__webpack_exports__);
     "itemTitle": String,
     "itemContent": String,
     "price": Number
-  }
+  },
+  mounted: function mounted() {}
 });
 
 /***/ }),
@@ -5302,7 +5303,25 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
   components: {
     BookableListItem: _BookableListItem__WEBPACK_IMPORTED_MODULE_0__["default"]
-  }
+  },
+  // beforeCreate() {
+  //   console.log('beforeCreate');
+  // },
+  created: function created() {
+    console.log('created');
+  },
+  // beforeMount() {
+  //     console.log('beforeMount');
+  // },
+  mounted: function mounted() {
+    console.log('mounted');
+  } // beforeDestroy() {
+  //     console.log('beforeDestroy');
+  // },
+  // destroyed() {
+  //     console.log('destroyed');
+  // }
+
 });
 
 /***/ }),

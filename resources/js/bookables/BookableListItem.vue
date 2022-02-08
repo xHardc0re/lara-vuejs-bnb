@@ -11,6 +11,10 @@ export default {
         "itemTitle": String,
         "itemContent": String,
         "price": Number
+    },
+
+    mounted() {
+
     }
 };
 </script>
