@@ -2,8 +2,7 @@ import VueRouter from "vue-router";
 import Bookables from "./bookables/Bookables";
 import Example2 from "./components/Example2";
 
-const routes = [
-    {
+const routes = [{
         path: "/",
         component: Bookables,
         name: "home"
@@ -16,7 +15,7 @@ const routes = [
 ];
 
 const router = new VueRouter({
-   routes,
+    routes,
     mode: "history"
 });
 
