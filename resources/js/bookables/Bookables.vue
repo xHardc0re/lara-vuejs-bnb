@@ -9,9 +9,9 @@
                     :key="'row' + row + column"
                 >
                     <bookable-list-item
-                        :item-title="bookable.title"
-                        :item-description="bookable.description"
-                        :price="1000"
+                        :title="bookable.title"
+                        :description="bookable.description"
+                        :id="bookable.id"
                     >
                     </bookable-list-item>
                 </div>
