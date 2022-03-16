@@ -4,7 +4,6 @@ namespace Database\Seeders;
 
 use App\Models\Bookable;
 use Illuminate\Database\Seeder;
-use Illuminate\Database\Eloquent\Factories\Factory;
 
 class BookablesTableSeeder extends Seeder
 {
