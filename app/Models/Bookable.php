@@ -14,6 +14,10 @@ class Bookable extends Model
   return $this->hasMany(\App\Models\Booking::class);
  }
 
+ public function reviews() {
+     return $this->hasMany(\App\Models\Review::class);
+ }
+
  public function availableFor($from, $to): bool
  {
   return 0 === $this->bookings()->betweenDates($from, $to)->count();
